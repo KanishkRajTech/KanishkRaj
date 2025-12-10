@@ -1,6 +1,6 @@
-# Anti-Gravity AI | Kanishk Raj Portfolio
+# Kanishk Raj Portfolio
 
-A modern, high-performance personal portfolio website branded as **"Anti-Gravity AI"**. Built with **React**, **TypeScript**, and **Tailwind CSS**, this portfolio showcases my projects, skills, and experience with a futuristic dark-mode aesthetic and smooth animations.
+A modern, high-performance personal portfolio website. Built with **React**, **TypeScript**, and **Tailwind CSS**, this portfolio showcases my projects, skills, and experience with a futuristic dark-mode aesthetic and smooth animations.
 
 ![Portfolio Preview](./public/kanishk_raj.jpg)
 

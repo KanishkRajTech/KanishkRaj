@@ -1,73 +1,76 @@
-# React + TypeScript + Vite
+# Anti-Gravity AI | Kanishk Raj Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance personal portfolio website branded as **"Anti-Gravity AI"**. Built with **React**, **TypeScript**, and **Tailwind CSS**, this portfolio showcases my projects, skills, and experience with a futuristic dark-mode aesthetic and smooth animations.
 
-Currently, two official plugins are available:
+![Portfolio Preview](./public/kanishk_raj.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+- **Frontend Framework**: React 18
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Email Service**: FormSubmit.co (No backend required)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Futuristic Dark UI**: Custom-designed dark theme with neon accents (Blue/Purple).
+- **Responsive Layout**: Fully responsive design for Mobile, Tablet, and Desktop.
+- **Interactive Elements**: Smooth scroll, hover effects, and entrance animations using Framer Motion.
+- **Project Showcase**: specific cards with images, descriptions, and tech stack badges.
+- **Contact Form**: Functional contact form integrated with FormSubmit.co for direct email delivery.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Projects Featured
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 1. BrightBased
+A professional business website for finding home tutors.
+- **Tech**: HTML, Tailwind, PHP, SQL, JavaScript
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 2. QuickStay
+A modern room-booking platform with real-time data handling.
+- **Tech**: NestJS, Tailwind, Firestore
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 3. Food Recipe App
+Full-stack MERN application for managing recipes.
+- **Tech**: React.js, Tailwind, Express, Node.js, MongoDB
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 4. DriveEasy
+Vehicle rental concept website.
+- **Tech**: HTML, PHP, Tailwind, SQL, LeafletJS
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 5. GitInsight
+GitHub analytics tool for fetching user repositories and activity.
+- **Tech**: React, Tailwind, GitHub API
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Installation & Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/KanishkRajTech/portfolio.git
+   ```
+
+2. **Navigate to the project folder**
+   ```bash
+   cd portfolio
+   ```
+
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+## 📬 Contact
+
+- **Email**: [kanishkraj600@gmail.com](mailto:kanishkraj600@gmail.com)
+- **LinkedIn**: [Kanishk Raj](https://www.linkedin.com/in/kanishkrajtech/)
+- **GitHub**: [KanishkRajTech](https://github.com/KanishkRajTech)
+
+---
+© 2025 Anti-Gravity AI • Built by Kanishk Raj

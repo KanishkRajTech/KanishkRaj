@@ -59,7 +59,7 @@ const About = () => {
 
                             <div className="pt-6">
                                 <a 
-                                    href="/resume.pdf" 
+                                    href="/Kanishk_Raj.pdf" 
                                     download
                                     className="inline-flex items-center gap-2 px-8 py-3 bg-transparent border border-neonBlue text-neonBlue font-bold rounded-full hover:bg-neonBlue hover:text-black transition-all group"
                                 >

@@ -142,7 +142,7 @@ const Contact = () => {
             
             {/* Minimal Footer */}
             <div className="mt-20 border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-                <p>&copy; 2025 Anti-Gravity AI • Built by Kanishk Raj</p>
+                <p> Development and Maintenance by Kanishk Raj </p>
             </div>
         </section>
     );

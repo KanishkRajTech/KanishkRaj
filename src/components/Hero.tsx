@@ -86,7 +86,7 @@ const Hero = () => {
                 Hire Me <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </Link>
               <a 
-                href="/resume.pdf" 
+                href="/Kanishk_Raj.pdf" 
                 download
                 className="px-8 py-3 border border-neonPurple text-neonPurple font-bold rounded-full flex items-center justify-center gap-2 hover:bg-neonPurple hover:text-white transition-all shadow-[0_0_15px_rgba(191,0,255,0.2)]"
               >

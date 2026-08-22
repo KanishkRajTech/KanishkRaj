@@ -31,7 +31,7 @@ const Skills = () => {
                         Tech Stack & <span className="text-neonPurple">Skills</span>
                     </h2>
 
-                    <div className="grid md:grid-cols-2 gap-16">
+                    <div className=" gap-16">
                         {/* Skills Cloud */}
                         <div>
                             <h3 className="text-2xl font-bold mb-8 text-white flex items-center gap-3">
@@ -55,7 +55,7 @@ const Skills = () => {
                         </div>
 
                         {/* Progress Bars */}
-                        <div>
+                        {/* <div>
                             <h3 className="text-2xl font-bold mb-8 text-white flex items-center gap-3">
                                 <span className="w-2 h-8 bg-neonPurple rounded-full"></span>
                                 Proficiency
@@ -79,7 +79,7 @@ const Skills = () => {
                                     </div>
                                 ))}
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </motion.div>
             </div>

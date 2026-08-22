@@ -4,6 +4,7 @@ import { Briefcase, Calendar, Award } from 'lucide-react';
 
 const Experience = () => {
     const experiences = [
+
     {
         role: "React Intern",
         company: "QuickStay",

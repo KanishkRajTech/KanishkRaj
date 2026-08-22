@@ -22,7 +22,7 @@ const About = () => {
                             <div className="absolute inset-0 bg-gradient-to-r from-neonBlue to-neonPurple rounded-2xl blur opacity-25 group-hover:opacity-50 transition-opacity duration-300" />
                             <div className="relative bg-gray-900 border border-gray-800 p-2 rounded-2xl overflow-hidden min-h-[400px] flex items-center justify-center">
                                 <img 
-                                    src="/kanishk_raj.jpg" 
+                                    src="/kanishk_raj.png" 
                                     alt="Kanishk Raj" 
                                     className="w-full h-full object-cover rounded-xl"
                                 />
@@ -32,7 +32,7 @@ const About = () => {
                         {/* Content */}
                         <div className="space-y-6">
                             <p className="text-gray-300 text-lg leading-relaxed">
-                               I’m a web developer and 3rd year CSE student specializing in modern frontend technologies like React, Tailwind CSS, JavaScript, and UI engineering. I’m currently learning the <span className="text-neonBlue font-semibold"> MERN stack </span>, and experimenting with AI-driven development workflows.
+                               I’m a web developer and Final year CSE student specializing in modern frontend technologies like React, Tailwind CSS, JavaScript, and UI engineering. I’m currently learning the <span className="text-neonBlue font-semibold"> MERN stack </span>, and experimenting with AI-driven development workflows.
                             </p>
                             <p className="text-gray-300 text-lg leading-relaxed">
                                 I enjoy turning ideas into fully functional, user friendly digital products. From frontend development to freelance projects, I focus on building experiences that are clean, fast, and purposeful. I’m also involved in internships, tech communities, and continuous self learning to sharpen my skills and deliver better products every day.
@@ -59,7 +59,7 @@ const About = () => {
 
                             <div className="pt-6">
                                 <a 
-                                    href="/Kanishk_Raj.pdf" 
+                                    href="/Kanishk__Raj.pdf" 
                                     download
                                     className="inline-flex items-center gap-2 px-8 py-3 bg-transparent border border-neonBlue text-neonBlue font-bold rounded-full hover:bg-neonBlue hover:text-black transition-all group"
                                 >

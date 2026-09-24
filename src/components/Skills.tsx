@@ -7,7 +7,7 @@ const Skills = () => {
         "JavaScript", "React", "Next.js", 
         "Node.js", "Express.js", "MERN Stack",
         "MongoDB", "SQL", "phpMyAdmin",
-        "Python", "NumPy", "PHP", 
+        "Python", "NumPy", "PHP", "Laravel",
         "C", "C++"
     ];
 

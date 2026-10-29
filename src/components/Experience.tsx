@@ -5,8 +5,8 @@ import { Briefcase, Calendar, Award } from 'lucide-react';
 const Experience = () => {
     const experiences = [
        {
-    role: "Software Developer Intern",
-    company: "SR University – SSDL",
+    role: "Software Developer ",
+    company: "SR University – SDDL",
     period: "Jul 2026 – Present",
     desc: "Contributing to the development and maintenance of existing university web applications using PHP and Laravel. Enhanced the Adjunct Faculty and Technical Support modules by modifying existing business logic, implementing new features, and developing additional pages based on project requirements. Worked with Laravel Blade to build and update user interfaces, MySQL for database operations, and Eloquent ORM for database interactions. Debugged existing functionality, investigated application errors, and integrated enhancements while following the project's existing architecture and coding standards. Gained hands-on experience in maintaining and extending real-world applications across both frontend and backend workflows.",
     icon: <Award size={20} />

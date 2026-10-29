@@ -6,6 +6,14 @@ import { img } from 'framer-motion/client';
 const Projects = () => {
     const projects = [
     {
+        title: "AI Agent Builder",
+        desc: "An interactive AI-powered platform for building and customizing AI agents with an intuitive interface, enabling users to create workflows and automate tasks efficiently.",
+        tech: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JavaScript", "React Flow", "Responsive UI"],
+        live: "https://ai-agent-builder-inky.vercel.app/",
+        code: "https://github.com/KanishkRajTech/ai-agent-builder",
+        img: "/workf.png"
+    },
+    {
         title: "BrightBased",
         desc: "A professional and responsive business website built for BrightBased. This platform provides home tutors for students, offering a clean UI and smooth user experience for finding and booking tuitions.",
         tech: ["HTML", "Tailwind", "PHP", "SQL", "JavaScript", "Responsive UI"],
